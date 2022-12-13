@@ -1,9 +1,9 @@
 name: Testing Workflow Dispatch
 on: [workflow_dispatch]
-inputs:
-  name: 
-    description: Name of the user
-    required: true
+  inputs:
+    name: 
+      description: Name of the user
+      required: true
 jobs:
   hello_world:
     runs-on: ubuntu-latest
