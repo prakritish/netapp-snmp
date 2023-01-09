@@ -13,3 +13,6 @@ jobs:
       - name: Print Hello World!
         run: "echo \"Hello ${{ inputs.name }}\""
 
+      - name: "Another echo"
+        run: "echo \"Hi!\""
+
